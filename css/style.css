@@ -1,13 +1,10 @@
 /* margins and spacing */
-body {
-  margin: 30px 110px;
+main {
+  margin: 30px 100px;
 }
 
-header,
-nav,
-section,
-footer {
-  margin-bottom: 40px;
+.bottomSpaces {
+  padding-bottom: 40px;
 }
 
 #Contact {
@@ -53,7 +50,6 @@ p {
 }
 
 /* Link apperance */
-
 a {
   color: rgb(173, 141, 51);
   text-decoration: none;
@@ -64,7 +60,6 @@ a:hover {
 }
 
 /* List apperance  */
-
 ul {
   padding-inline-start: 20px;
 }
@@ -78,3 +73,11 @@ li {
   margin-right: 10px;
   background-color: #ddddb7;
 } */
+
+
+/* Backgrounds  */
+header, footer {
+    background-color: rgb(221, 221, 221);
+    margin: 0px 80px;
+    padding: 20px;
+}
