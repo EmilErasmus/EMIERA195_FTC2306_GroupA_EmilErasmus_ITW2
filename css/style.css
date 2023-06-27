@@ -1,6 +1,10 @@
 /* margins and spacing */
+body {
+  margin: 0px;
+}
+
 main {
-  margin: 30px 100px;
+  margin: 10px 160px;
 }
 
 .bottomSpaces {
@@ -12,7 +16,7 @@ main {
 }
 
 img {
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 50%;
   margin: 12px 0px;
 }
@@ -64,9 +68,9 @@ ul {
   padding-inline-start: 20px;
 }
 
-
 li {
-    font-size: larger;
+  font-size: larger;
+  margin: 3px 0px;
 }
 /* li {
   display: inline;
@@ -74,10 +78,19 @@ li {
   background-color: #ddddb7;
 } */
 
-
 /* Backgrounds  */
-header, footer {
-    background-color: rgb(221, 221, 221);
-    margin: 0px 80px;
-    padding: 20px;
+header,
+footer {
+  background-color: rgb(198, 198, 199);
+  margin: 0px 140px;
+  padding: 20px;
+}
+
+header {
+  padding-bottom: 30px;
+  background-image: linear-gradient(rgb(202, 202, 202), rgb(241, 241, 241));
+}
+
+footer {
+  background-image: linear-gradient(rgb(241, 241, 241), rgb(202, 202, 202));
 }
