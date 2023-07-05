@@ -36,7 +36,7 @@ form {
 }
 .userMsg {
   position: absolute;
-  bottom: 19px;
+  bottom: 20px;
   left: 400px;
 }
 
@@ -96,12 +96,16 @@ li {
   margin: 3px 0px;
 }
 /* li {
-    display: inline;
-    margin-right: 10px;
-    background-color: #ddddb7;
-  } */
+      display: inline;
+      margin-right: 10px;
+      background-color: #ddddb7;
+    } */
 
 /* Backgrounds  */
+header {
+    background: url(./ima);
+}
+
 header,
 footer {
   background-color: rgb(198, 198, 199);
@@ -122,7 +126,7 @@ footer {
 
 fieldset {
   width: 330px;
-  height: 370px;
+  height: 330px;
   border-radius: 5px;
 }
 
@@ -131,11 +135,8 @@ label {
   width: 100px;
 }
 
-.radio {
-  display: inline;
-}
-
-input, select {
+input,
+select {
   padding: 0.4em;
   border: solid 1px #999;
 }
@@ -148,9 +149,3 @@ button {
   font-family: sans-serif;
   font-size: 0.8em;
 }
-/* p {
-  display: table-row;
-}
-label {
-  display: table-cell;
-} */
