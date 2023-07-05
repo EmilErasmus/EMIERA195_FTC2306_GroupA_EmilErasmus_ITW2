@@ -15,11 +15,20 @@
 
     <main>
       <aside class="bottomSpaces">
-        <img
-          src="images/Emil.jpg"
-          alt="super-epic-human-being.jpg"
-          style="height: 220px; width: 220px"
-        />
+        <picture>
+          <source 
+            media="(min-width: 800px)"
+            srcset="images/emil-landscape.jpg"
+            style="height: 200; width: 600;"
+          />
+          <!-- <source media="(min-width: 465px)" srcset="img_car.jpg" /> -->
+          <img class="emilImg"
+            src="images/emil.jpg"
+            alt="super-epic-human-being.jpg"
+            style="height: 260px; width: 500px"
+          />
+        </picture>
+
         <hr />
         <nav class="nav1">
           <ul>
