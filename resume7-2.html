@@ -10,25 +10,30 @@
   <body>
     <header>
       <h1>Emil Erasmus</h1>
-      <h2>Software Developer</h2>
+      <h2 id="title">Software Developer</h2>
+      <br />
+      <picture>
+        <source
+          id="smallImg"
+          media="(max-width: 500px)"
+          srcset="images/emil-cropped.jpg"
+        />
+        <source
+          id="mediumImg"
+          media="(max-width: 1000px)"
+          srcset="images/emil.jpg"
+        />
+        <img
+          class="emilImg"
+          src="images/emil-landscape.jpg"
+          alt="super-epic-human-being.jpg"
+        />
+      </picture>
     </header>
+    <br />
 
     <main>
       <aside class="bottomSpaces">
-        <picture>
-          <source 
-            media="(min-width: 800px)"
-            srcset="images/emil-landscape.jpg"
-            style="height: 200; width: 600;"
-          />
-          <!-- <source media="(min-width: 465px)" srcset="img_car.jpg" /> -->
-          <img class="emilImg"
-            src="images/emil.jpg"
-            alt="super-epic-human-being.jpg"
-            style="height: 260px; width: 500px"
-          />
-        </picture>
-
         <hr />
         <nav class="nav1">
           <ul>
