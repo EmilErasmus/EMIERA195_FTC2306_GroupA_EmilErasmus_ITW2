@@ -113,7 +113,7 @@
         <fieldset class="userInfo">
           <legend>Personal Info</legend>
           <p>
-            <label for="firstName">First Name:</label>
+            <label for="firstName">First Name: *</label>
             <input
               type="text"
               name="firstName"
@@ -124,7 +124,7 @@
             />
           </p>
           <p>
-            <label for="lastName">Last Name:</label>
+            <label for="lastName">Last Name: *</label>
             <input
               type="text"
               name="lastName"
@@ -135,7 +135,7 @@
             />
           </p>
           <p>
-            <label for="email">Email:</label>
+            <label for="email">Email: *</label>
             <input
               type="email"
               name="email"
@@ -165,7 +165,13 @@
             </select>
           </p>
           <p>
-            <input class="radio" type="radio" id="news" name="news" value="news" />
+            <input
+              class="radio"
+              type="radio"
+              id="news"
+              name="news"
+              value="news"
+            />
             <label class="radio" for="news">Receive newsletter</label>
           </p>
         </fieldset>
@@ -187,11 +193,7 @@
             <button type="reset">Reset</button>
           </div>
         </fieldset>
-
-        <!-- <div class="buttons">
-          <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
-        </div> -->
+        <p>* Required field</p>
       </form>
       <br />
       <a
