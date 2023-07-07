@@ -1,0 +1,213 @@
+/* Margins and spacing */
+
+body {
+  margin: 0;
+}
+
+#contact {
+  margin-bottom: 1em;
+}
+
+.bottomSpaces {
+  padding-bottom: 1em;
+}
+
+/* .emilImg {
+
+} */
+
+/* Positioning */
+/* aside {
+    position: relative;
+  }
+  .nav1 {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+  } */
+
+/* Text appearance */
+h1,
+h2,
+h3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+h1 {
+  color: #fff;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+  font-weight: 400;
+}
+
+#title,
+#contact {
+  color: #fff;
+  font-weight: 350;
+}
+
+h3 {
+  color: rgb(73, 73, 73);
+  font-weight: 600;
+}
+
+h2 {
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+  color: rgb(24, 119, 114);
+  font-weight: 500;
+}
+
+.mainText {
+  color: rgb(110, 110, 110);
+  font-size: 1.1em;
+  width: 80%;
+  text-align: left;
+}
+
+/* Link appearance */
+a {
+  color: rgb(173, 141, 51);
+  text-decoration: none;
+}
+
+.bottomLinks {
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(73, 73, 73);
+}
+
+/* List appearance  */
+ul {
+  padding-inline-start: 20px;
+}
+
+li {
+  font-size: larger;
+  margin: 3px 0px;
+}
+/* li {
+        display: inline;
+        margin-right: 10px;
+        background-color: #ddddb7;
+      } */
+
+/* Backgrounds  */
+
+header, footer {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 30px;
+  /* background-image: linear-gradient(rgb(202, 202, 202), rgb(241, 241, 241)); */
+}
+
+/* footer {
+    background-image: linear-gradient(rgb(241, 241, 241), rgb(202, 202, 202));
+  } */
+
+/* Form appearance */
+legend {
+  color: #fff;
+  font-size: large;
+}
+
+label {
+  color: #dfdfdf;
+  display: block;
+  width: 100px;
+}
+
+textarea {
+  width: 90%;
+}
+
+input,
+select {
+  padding: 0.4em;
+  border: solid 1px #999;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #464646;
+  font-family: sans-serif;
+  font-size: 0.8em;
+}
+
+/* images */
+
+img {
+  max-width: 50%;
+  height: auto;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  /* Styles for screens smaller than 768px */
+  main {
+    margin: 0;
+  }
+  fieldset {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens between 769px and 1024px */
+  fieldset {
+    width: 80%;
+    height: 80%;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for screens larger than 1024px */
+  main {
+    margin: 0px 160px;
+  }
+
+  header,
+  footer {
+    margin: 0% 10%;
+    padding: 3em;
+  }
+
+  img {
+    max-width: 30%;
+    height: auto;
+  }
+
+  .userMsg {
+    position: absolute;
+    bottom: 20px;
+    left: 400px;
+  }
+
+  fieldset {
+    width: 330px;
+    height: 330px;
+    border-radius: 5px;
+  }
+  form {
+    position: relative;
+  }
+
+  .buttons {
+    position: relative;
+    top: 25px;
+  }
+}
